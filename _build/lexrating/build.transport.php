@@ -51,11 +51,11 @@ $sources = array(
     'properties' => realpath(BUILD_PATH . 'data/properties/') . DIRECTORY_SEPARATOR,
     'resolvers' => realpath(BUILD_PATH . 'resolvers/') . DIRECTORY_SEPARATOR,
     'validators' => realpath(BUILD_PATH . 'validators/') . DIRECTORY_SEPARATOR,
-    'lexicon' => realpath(MODX_CORE_PATH . 'components/lexrating/lexicon/') . DIRECTORY_SEPARATOR,
-    'docs' => realpath(MODX_CORE_PATH . 'components/lexrating/docs/') . DIRECTORY_SEPARATOR,
-    'chunks' => realpath(MODX_CORE_PATH . 'components/lexrating/themes/default/chunks/') . DIRECTORY_SEPARATOR,
-    'source_assets' => realpath(MODX_ASSETS_PATH . 'components/lexrating'),
-    'source_core' => realpath(MODX_CORE_PATH . 'components/lexrating'),
+    'lexicon' => ('../../core/components/lexrating/lexicon/'),
+    'docs' => ('../../core/components/lexrating/docs/'),
+    'chunks' => ('../../core/components/lexrating/themes/default/chunks/'),
+    'source_assets' => ('../../www/assets/components/lexrating'),
+    'source_core' => ('../../core/components/lexrating'),
 );
 unset($root);
 
